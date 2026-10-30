@@ -5,5 +5,6 @@ from rest_framework.response import Response
 @api_view(['GET'])
 def hello_api(request):
     return Response({
-        "message": "Hello from CSC 325 CI/CD Pipeline!"
+        "message": "Hello from CSC 325 CI/CD Pipeline!",
+        "status": "success"
     })
